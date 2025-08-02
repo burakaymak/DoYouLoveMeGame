@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979EA9702E3CDAC9006E95E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EA96F2E3CDAC9006E95E6 /* AppDelegate.swift */; };
+		979EA9722E3CDAC9006E95E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EA9712E3CDAC9006E95E6 /* SceneDelegate.swift */; };
+		979EA9742E3CDAC9006E95E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EA9732E3CDAC9006E95E6 /* ViewController.swift */; };
+		979EA9772E3CDAC9006E95E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979EA9752E3CDAC9006E95E6 /* Main.storyboard */; };
+		979EA9792E3CDACA006E95E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979EA9782E3CDACA006E95E6 /* Assets.xcassets */; };
+		979EA97C2E3CDACA006E95E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979EA97A2E3CDACA006E95E6 /* LaunchScreen.storyboard */; };
+		979EA9872E3CDACA006E95E6 /* DoYouLoveMeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EA9862E3CDACA006E95E6 /* DoYouLoveMeGameTests.swift */; };
+		979EA9912E3CDACA006E95E6 /* DoYouLoveMeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EA9902E3CDACA006E95E6 /* DoYouLoveMeGameUITests.swift */; };
+		979EA9932E3CDACA006E95E6 /* DoYouLoveMeGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979EA9922E3CDACA006E95E6 /* DoYouLoveMeGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		979EA9832E3CDACA006E95E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979EA9642E3CDAC9006E95E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979EA96B2E3CDAC9006E95E6;
+			remoteInfo = DoYouLoveMeGame;
+		};
+		979EA98D2E3CDACA006E95E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 979EA9642E3CDAC9006E95E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979EA96B2E3CDAC9006E95E6;
+			remoteInfo = DoYouLoveMeGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		979EA96C2E3CDAC9006E95E6 /* DoYouLoveMeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoYouLoveMeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979EA96F2E3CDAC9006E95E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979EA9712E3CDAC9006E95E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		979EA9732E3CDAC9006E95E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		979EA9762E3CDAC9006E95E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979EA9782E3CDACA006E95E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979EA97B2E3CDACA006E95E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979EA97D2E3CDACA006E95E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979EA9822E3CDACA006E95E6 /* DoYouLoveMeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoYouLoveMeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979EA9862E3CDACA006E95E6 /* DoYouLoveMeGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouLoveMeGameTests.swift; sourceTree = "<group>"; };
+		979EA98C2E3CDACA006E95E6 /* DoYouLoveMeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoYouLoveMeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		979EA9902E3CDACA006E95E6 /* DoYouLoveMeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouLoveMeGameUITests.swift; sourceTree = "<group>"; };
+		979EA9922E3CDACA006E95E6 /* DoYouLoveMeGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoYouLoveMeGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979EA9692E3CDAC9006E95E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EA97F2E3CDACA006E95E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EA9892E3CDACA006E95E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979EA9632E3CDAC9006E95E6 = {
+			isa = PBXGroup;
+			children = (
+				979EA96E2E3CDAC9006E95E6 /* DoYouLoveMeGame */,
+				979EA9852E3CDACA006E95E6 /* DoYouLoveMeGameTests */,
+				979EA98F2E3CDACA006E95E6 /* DoYouLoveMeGameUITests */,
+				979EA96D2E3CDAC9006E95E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979EA96D2E3CDAC9006E95E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979EA96C2E3CDAC9006E95E6 /* DoYouLoveMeGame.app */,
+				979EA9822E3CDACA006E95E6 /* DoYouLoveMeGameTests.xctest */,
+				979EA98C2E3CDACA006E95E6 /* DoYouLoveMeGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979EA96E2E3CDAC9006E95E6 /* DoYouLoveMeGame */ = {
+			isa = PBXGroup;
+			children = (
+				979EA96F2E3CDAC9006E95E6 /* AppDelegate.swift */,
+				979EA9712E3CDAC9006E95E6 /* SceneDelegate.swift */,
+				979EA9732E3CDAC9006E95E6 /* ViewController.swift */,
+				979EA9752E3CDAC9006E95E6 /* Main.storyboard */,
+				979EA9782E3CDACA006E95E6 /* Assets.xcassets */,
+				979EA97A2E3CDACA006E95E6 /* LaunchScreen.storyboard */,
+				979EA97D2E3CDACA006E95E6 /* Info.plist */,
+			);
+			path = DoYouLoveMeGame;
+			sourceTree = "<group>";
+		};
+		979EA9852E3CDACA006E95E6 /* DoYouLoveMeGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				979EA9862E3CDACA006E95E6 /* DoYouLoveMeGameTests.swift */,
+			);
+			path = DoYouLoveMeGameTests;
+			sourceTree = "<group>";
+		};
+		979EA98F2E3CDACA006E95E6 /* DoYouLoveMeGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				979EA9902E3CDACA006E95E6 /* DoYouLoveMeGameUITests.swift */,
+				979EA9922E3CDACA006E95E6 /* DoYouLoveMeGameUITestsLaunchTests.swift */,
+			);
+			path = DoYouLoveMeGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979EA96B2E3CDAC9006E95E6 /* DoYouLoveMeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979EA9962E3CDACA006E95E6 /* Build configuration list for PBXNativeTarget "DoYouLoveMeGame" */;
+			buildPhases = (
+				979EA9682E3CDAC9006E95E6 /* Sources */,
+				979EA9692E3CDAC9006E95E6 /* Frameworks */,
+				979EA96A2E3CDAC9006E95E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoYouLoveMeGame;
+			productName = DoYouLoveMeGame;
+			productReference = 979EA96C2E3CDAC9006E95E6 /* DoYouLoveMeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		979EA9812E3CDACA006E95E6 /* DoYouLoveMeGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979EA9992E3CDACA006E95E6 /* Build configuration list for PBXNativeTarget "DoYouLoveMeGameTests" */;
+			buildPhases = (
+				979EA97E2E3CDACA006E95E6 /* Sources */,
+				979EA97F2E3CDACA006E95E6 /* Frameworks */,
+				979EA9802E3CDACA006E95E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979EA9842E3CDACA006E95E6 /* PBXTargetDependency */,
+			);
+			name = DoYouLoveMeGameTests;
+			productName = DoYouLoveMeGameTests;
+			productReference = 979EA9822E3CDACA006E95E6 /* DoYouLoveMeGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		979EA98B2E3CDACA006E95E6 /* DoYouLoveMeGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979EA99C2E3CDACA006E95E6 /* Build configuration list for PBXNativeTarget "DoYouLoveMeGameUITests" */;
+			buildPhases = (
+				979EA9882E3CDACA006E95E6 /* Sources */,
+				979EA9892E3CDACA006E95E6 /* Frameworks */,
+				979EA98A2E3CDACA006E95E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				979EA98E2E3CDACA006E95E6 /* PBXTargetDependency */,
+			);
+			name = DoYouLoveMeGameUITests;
+			productName = DoYouLoveMeGameUITests;
+			productReference = 979EA98C2E3CDACA006E95E6 /* DoYouLoveMeGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979EA9642E3CDAC9006E95E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					979EA96B2E3CDAC9006E95E6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					979EA9812E3CDACA006E95E6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 979EA96B2E3CDAC9006E95E6;
+					};
+					979EA98B2E3CDACA006E95E6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 979EA96B2E3CDAC9006E95E6;
+					};
+				};
+			};
+			buildConfigurationList = 979EA9672E3CDAC9006E95E6 /* Build configuration list for PBXProject "DoYouLoveMeGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979EA9632E3CDAC9006E95E6;
+			productRefGroup = 979EA96D2E3CDAC9006E95E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979EA96B2E3CDAC9006E95E6 /* DoYouLoveMeGame */,
+				979EA9812E3CDACA006E95E6 /* DoYouLoveMeGameTests */,
+				979EA98B2E3CDACA006E95E6 /* DoYouLoveMeGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979EA96A2E3CDAC9006E95E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979EA97C2E3CDACA006E95E6 /* LaunchScreen.storyboard in Resources */,
+				979EA9792E3CDACA006E95E6 /* Assets.xcassets in Resources */,
+				979EA9772E3CDAC9006E95E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EA9802E3CDACA006E95E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EA98A2E3CDACA006E95E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979EA9682E3CDAC9006E95E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979EA9742E3CDAC9006E95E6 /* ViewController.swift in Sources */,
+				979EA9702E3CDAC9006E95E6 /* AppDelegate.swift in Sources */,
+				979EA9722E3CDAC9006E95E6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EA97E2E3CDACA006E95E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979EA9872E3CDACA006E95E6 /* DoYouLoveMeGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		979EA9882E3CDACA006E95E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979EA9912E3CDACA006E95E6 /* DoYouLoveMeGameUITests.swift in Sources */,
+				979EA9932E3CDACA006E95E6 /* DoYouLoveMeGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		979EA9842E3CDACA006E95E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979EA96B2E3CDAC9006E95E6 /* DoYouLoveMeGame */;
+			targetProxy = 979EA9832E3CDACA006E95E6 /* PBXContainerItemProxy */;
+		};
+		979EA98E2E3CDACA006E95E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 979EA96B2E3CDAC9006E95E6 /* DoYouLoveMeGame */;
+			targetProxy = 979EA98D2E3CDACA006E95E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		979EA9752E3CDAC9006E95E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979EA9762E3CDAC9006E95E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979EA97A2E3CDACA006E95E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979EA97B2E3CDACA006E95E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979EA9942E3CDACA006E95E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		979EA9952E3CDACA006E95E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979EA9972E3CDACA006E95E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoYouLoveMeGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakkaymak.DoYouLoveMeGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		979EA9982E3CDACA006E95E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoYouLoveMeGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakkaymak.DoYouLoveMeGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		979EA99A2E3CDACA006E95E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakkaymak.DoYouLoveMeGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoYouLoveMeGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoYouLoveMeGame";
+			};
+			name = Debug;
+		};
+		979EA99B2E3CDACA006E95E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakkaymak.DoYouLoveMeGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoYouLoveMeGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DoYouLoveMeGame";
+			};
+			name = Release;
+		};
+		979EA99D2E3CDACA006E95E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakkaymak.DoYouLoveMeGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoYouLoveMeGame;
+			};
+			name = Debug;
+		};
+		979EA99E2E3CDACA006E95E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakkaymak.DoYouLoveMeGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoYouLoveMeGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979EA9672E3CDAC9006E95E6 /* Build configuration list for PBXProject "DoYouLoveMeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979EA9942E3CDACA006E95E6 /* Debug */,
+				979EA9952E3CDACA006E95E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979EA9962E3CDACA006E95E6 /* Build configuration list for PBXNativeTarget "DoYouLoveMeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979EA9972E3CDACA006E95E6 /* Debug */,
+				979EA9982E3CDACA006E95E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979EA9992E3CDACA006E95E6 /* Build configuration list for PBXNativeTarget "DoYouLoveMeGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979EA99A2E3CDACA006E95E6 /* Debug */,
+				979EA99B2E3CDACA006E95E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979EA99C2E3CDACA006E95E6 /* Build configuration list for PBXNativeTarget "DoYouLoveMeGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979EA99D2E3CDACA006E95E6 /* Debug */,
+				979EA99E2E3CDACA006E95E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 979EA9642E3CDAC9006E95E6 /* Project object */;
+}
